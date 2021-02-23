@@ -55,9 +55,8 @@
 		464166CF25E480870062E95E /* SwiftUIFinancialApp */ = {
 			isa = PBXGroup;
 			children = (
-				464166D025E480870062E95E /* SwiftUIFinancialAppApp.swift */,
-				464166D225E480870062E95E /* ContentView.swift */,
-				464166D425E480880062E95E /* Assets.xcassets */,
+				464166E425E482EC0062E95E /* Application */,
+				464166E525E483130062E95E /* Views */,
 				464166D925E480880062E95E /* Info.plist */,
 				464166D625E480880062E95E /* Preview Content */,
 			);
@@ -70,6 +69,23 @@
 				464166D725E480880062E95E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		464166E425E482EC0062E95E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				464166D025E480870062E95E /* SwiftUIFinancialAppApp.swift */,
+				464166D425E480880062E95E /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		464166E525E483130062E95E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				464166D225E480870062E95E /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
