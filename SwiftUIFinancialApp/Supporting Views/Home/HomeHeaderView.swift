@@ -12,7 +12,7 @@ struct HomeHeaderView: View {
     var body: some View {
         HStack(alignment: .center) {
             VStack(alignment: .leading, spacing: -8) {
-                Text("Hi, Craig Clayton")
+                Text("Hi, John Carter")
                     .customFont(.custom(.bold, 24))
                 Text("Welcome to your favorite app.")
                     .customFont(.custom(.demibold, 16))
