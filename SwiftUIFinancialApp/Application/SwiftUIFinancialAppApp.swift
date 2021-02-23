@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUIFinancialAppApp: App {
+    @StateObject private var model = CreateAccountViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(model)
         }
     }
 }
