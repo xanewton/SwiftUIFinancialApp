@@ -52,6 +52,7 @@
 		4641673F25E4844D0062E95E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641671A25E4844D0062E95E /* Color+Extension.swift */; };
 		4641674025E4844D0062E95E /* StringOptional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641671B25E4844D0062E95E /* StringOptional+Extension.swift */; };
 		4641674125E4844D0062E95E /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641671C25E4844D0062E95E /* View+Extension.swift */; };
+		4641674625E487970062E95E /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641674525E487970062E95E /* Theme.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,7 @@
 		4641671A25E4844D0062E95E /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		4641671B25E4844D0062E95E /* StringOptional+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringOptional+Extension.swift"; sourceTree = "<group>"; };
 		4641671C25E4844D0062E95E /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		4641674525E487970062E95E /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				464166D025E480870062E95E /* SwiftUIFinancialAppApp.swift */,
 				464166D425E480880062E95E /* Assets.xcassets */,
+				4641674525E487970062E95E /* Theme.xcassets */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				4641673825E4844D0062E95E /* AvenirNextCondensed-Regular.ttf in Resources */,
 				464166D825E480880062E95E /* Preview Assets.xcassets in Resources */,
 				4641673A25E4844D0062E95E /* AvenirNextCondensed-DemiBold.ttf in Resources */,
+				4641674625E487970062E95E /* Theme.xcassets in Resources */,
 				4641673D25E4844D0062E95E /* AvenirNextCondensed-UltraLight.ttf in Resources */,
 				464166D525E480880062E95E /* Assets.xcassets in Resources */,
 			);
