@@ -16,7 +16,7 @@ struct AccountSummaryView: View {
             if type == "creditcard" {
                 creditcard
             } else {
-                Text("Debit code here")
+                debitcard
             }
         }.padding(.horizontal, 10)
     }
@@ -117,5 +117,25 @@ private extension AccountSummaryView {
         }
         .padding(.top, 10)
         .background(Color.baseWhite)
+    }
+    
+    var debitcard: some View {
+        VStack {
+            VStack(spacing: 0) {
+                HStack {
+                    Text("TRANSACTIONS")
+                        .customFont(.custom(.bold, 20))
+                        .padding(.bottom, 2)
+                        .foregroundColor(.basePrussianBlue)
+                    Spacer()
+                }
+                Divider().padding(.bottom, 10)
+            }
+            VStack {
+                ForEach(0 ..< 3) { _ in
+                    TransactionItemView()
+                }
+            }.padding(.horizontal, 10)
+        }.padding(.horizontal, 10)
     }
 }
