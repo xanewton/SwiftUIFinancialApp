@@ -11,7 +11,19 @@ import SwiftUI
 struct AccountHomeView: View {
 
     var body: some View {
-        Text("Account Home View")
+        ZStack {
+            Color(.baseLightWhite)
+                .edgesIgnoringSafeArea(.all)
+            ScrollView {
+                VStack{
+                    HomeHeaderView()
+                    CardView()
+                    Divider()
+                    AccountSummaryView()
+                    HomeSubmenuView()
+                }
+            }
+        }
     }
 }
 
