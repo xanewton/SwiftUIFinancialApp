@@ -18,7 +18,12 @@ struct AccountSummaryView: View {
             } else {
                 debitcard
             }
-        }.padding(.horizontal, 10)
+        }
+        .padding(.horizontal, 10)
+        .onAppear {
+            UITableView.appearance().tableFooterView = UIView()
+            UITableView.appearance().backgroundColor = UIColor.clear
+        }
     }
 }
 
