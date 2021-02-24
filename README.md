@@ -17,6 +17,8 @@ eBook source code available at [github](https://github.com/PacktPublishing/Swift
 
 ## References
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
+- [Core Data](https://developer.apple.com/documentation/coredata)
+  Core Data is a framework for managing and persisting an object graph. Core Data is not a database, but it allows us to use the API to read and write them from permanent storage.
 
 
 ## License
