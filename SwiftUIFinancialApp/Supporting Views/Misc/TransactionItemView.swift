@@ -32,7 +32,7 @@ struct TransactionItemView: View {
                     Text("- $50.68")
                         .customFont(.custom(.bold, 20))
                         .foregroundColor(.baseGreen)
-                    Text("Mike Wazowski").customFont(.custom(.medium, 14))
+                    Text("Feb 29, 2021").customFont(.custom(.medium, 14))
                 }
             }
             .foregroundColor(.baseHokiBlue)
