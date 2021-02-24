@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Account" representedClassName="Account" syncable="YES" codeGenerationType="class"/>
+    <entity name="Card" representedClassName="Card" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="Account" positionX="-63" positionY="-18" width="128" height="43"/>
+        <element name="Card" positionX="174.9065551757812" positionY="-17.60763549804688" width="128" height="43"/>
+    </elements>
 </model>
