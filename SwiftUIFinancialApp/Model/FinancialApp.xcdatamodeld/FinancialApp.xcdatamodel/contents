@@ -8,9 +8,17 @@
         <attribute name="lastName" optional="YES" attributeType="String"/>
         <attribute name="type" optional="YES" attributeType="String"/>
     </entity>
-    <entity name="Card" representedClassName="Card" syncable="YES" codeGenerationType="class"/>
+    <entity name="Card" representedClassName="Card" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="cvv" optional="YES" attributeType="String"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="expirationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="logo" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+    </entity>
     <elements>
         <element name="Account" positionX="-63" positionY="-18" width="128" height="133"/>
-        <element name="Card" positionX="174.9065551757812" positionY="-17.60763549804688" width="128" height="43"/>
+        <element name="Card" positionX="174.9065551757812" positionY="-17.60763549804688" width="128" height="148"/>
     </elements>
 </model>
