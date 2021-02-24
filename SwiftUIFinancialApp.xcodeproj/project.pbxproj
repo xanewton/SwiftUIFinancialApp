@@ -53,6 +53,7 @@
 		4641674025E4844D0062E95E /* StringOptional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641671B25E4844D0062E95E /* StringOptional+Extension.swift */; };
 		4641674125E4844D0062E95E /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641671C25E4844D0062E95E /* View+Extension.swift */; };
 		4641674625E487970062E95E /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641674525E487970062E95E /* Theme.xcassets */; };
+		4689E02F25E5D90A0002869E /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689E02E25E5D90A0002869E /* FormTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +105,7 @@
 		4641671B25E4844D0062E95E /* StringOptional+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringOptional+Extension.swift"; sourceTree = "<group>"; };
 		4641671C25E4844D0062E95E /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		4641674525E487970062E95E /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		4689E02E25E5D90A0002869E /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 				4641670625E4844D0062E95E /* ColorView.swift */,
 				4641670725E4844D0062E95E /* AccountFormView.swift */,
 				4641670825E4844D0062E95E /* FormNameView.swift */,
+				4689E02E25E5D90A0002869E /* FormTextField.swift */,
 			);
 			path = "Create Account";
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				4641672825E4844D0062E95E /* HomeSubmenuView.swift in Sources */,
 				4641671F25E4844D0062E95E /* Account+Extension.swift in Sources */,
 				4641673F25E4844D0062E95E /* Color+Extension.swift in Sources */,
+				4689E02F25E5D90A0002869E /* FormTextField.swift in Sources */,
 				4641672D25E4844D0062E95E /* CardView.swift in Sources */,
 				4641674125E4844D0062E95E /* View+Extension.swift in Sources */,
 				4641672425E4844D0062E95E /* AccountTypeView.swift in Sources */,
