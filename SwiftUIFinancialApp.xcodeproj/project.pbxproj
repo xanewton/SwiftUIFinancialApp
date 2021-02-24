@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46273E3A25E71899006E2DC0 /* FinancialApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46273E3825E71899006E2DC0 /* FinancialApp.xcdatamodeld */; };
 		464166D125E480870062E95E /* SwiftUIFinancialAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464166D025E480870062E95E /* SwiftUIFinancialAppApp.swift */; };
 		464166D325E480870062E95E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464166D225E480870062E95E /* ContentView.swift */; };
 		464166D525E480880062E95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464166D425E480880062E95E /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46273E3925E71899006E2DC0 /* FinancialApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinancialApp.xcdatamodel; sourceTree = "<group>"; };
 		464166CD25E480870062E95E /* SwiftUIFinancialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFinancialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464166D025E480870062E95E /* SwiftUIFinancialAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFinancialAppApp.swift; sourceTree = "<group>"; };
 		464166D225E480870062E95E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				464166F025E4844C0062E95E /* Card+Extension.swift */,
 				464166F125E4844C0062E95E /* Account+Extension.swift */,
 				464166F225E4844C0062E95E /* MockAccountPreviewService.swift */,
+				46273E3825E71899006E2DC0 /* FinancialApp.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4641672125E4844D0062E95E /* CreditCardStyle.swift in Sources */,
+				46273E3A25E71899006E2DC0 /* FinancialApp.xcdatamodeld in Sources */,
 				4641673725E4844D0062E95E /* CustomTextStyle.swift in Sources */,
 				4641673525E4844D0062E95E /* IntOptional+Extension.swift in Sources */,
 				4641672925E4844D0062E95E /* AccountSummaryView.swift in Sources */,
@@ -596,6 +600,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46273E3825E71899006E2DC0 /* FinancialApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46273E3925E71899006E2DC0 /* FinancialApp.xcdatamodel */,
+			);
+			currentVersion = 46273E3925E71899006E2DC0 /* FinancialApp.xcdatamodel */;
+			path = FinancialApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 464166C525E480870062E95E /* Project object */;
 }
